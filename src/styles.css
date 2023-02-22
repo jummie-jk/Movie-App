@@ -1,0 +1,130 @@
+html{
+    font-size: 10px;
+
+}
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+   
+}
+p{
+    font-size: 1.3rem;
+}
+small{
+    font-size: 1rem;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
+}
+.title{
+    font-size: 4.4rem;
+    text-align: center;
+    color: orangered;
+    font-family: 'Lato', sans-serif;
+}
+.title-text{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 3rem;
+    margin-top: .5rem;
+}
+.form{
+    display: grid;
+}
+.label{
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+    font-family: 'Lato', sans-serif;
+}
+.input{
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+input[type=text] {
+    background-color: #fff;
+    color: black;
+  }
+.button{
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 256ms;
+}
+.button:hover{
+    background-color: #111;
+    color: #fff;
+    border: 1px solid white;
+}
+.card-list{
+    margin-top: 4rem;
+}
+.card{
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    margin-bottom: 2rem;
+    background-color: white;
+    color: #111;
+    font-family: 'Lato', sans-serif;
+}
+.card-title{
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+}
+.card-img{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.homepage-card{
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    margin-bottom: 1rem;
+    background-color: white;
+    color: #111;
+    font-family: 'Lato', sans-serif;
+    width: 90rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem auto;
+}
+.homepage-poster{
+    padding: 1rem;
+}
+.homepage-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+@media(min-width: 786px){
+    .form{
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 1rem;
+        align-items: center;
+      
+    }
+    .input{
+        margin-bottom: 0;
+    }
+}
